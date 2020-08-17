@@ -6,6 +6,8 @@ import javax.persistence.Table;
 //Model to represent the user
 @Entity
 @Table(name="users")
-public class User {
+public class User extends AbstractEntity{
+	private String userName;
+	private String hash;
 	
 }
